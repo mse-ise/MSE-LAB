@@ -2,42 +2,36 @@
 
 @implementation Employee
 
+//set methods
 -(void)setName:(NSString *)newName
 {
-name =[[NSString alloc] initWithString: newName];
+  name =[[NSString alloc] initWithString: newName];
 }
 
 -(void)setDept:(NSString *)newDept
 {
-dept =[[NSString alloc] initWithString: newDept];
+  dept =[[NSString alloc] initWithString: newDept];
 }
 
-/*-(void)setEmpId:(NSNumber *)newEmpId
+-(void)setEmpId:(int)newEmpId
 {
-empId=[[NSNumber alloc] init];
-empId =newEmpId;
-}*/
-
--(void)setEmpId:(float)newEmpId
-{
-empId =newEmpId;
+  empId =newEmpId;
 }
 
-
+//get methods
 -(NSString *)name
-{ return name;
+{ 
+  return name;
 }
 
 -(NSString *)dept
 {
-return dept;
+  return dept;
 }
 
-/*-(NSNumber *)empId{
-return empId;
-}*/
--(float)empId{
-return empId;
+-(int)empId
+{
+  return empId;
 }
 
 @end
