@@ -29,7 +29,7 @@
 
 -(double)div
 {
-	if(num2==0)
+	if(num2==0) //handle exception for devide by 0 error
 	{
 		NSLog(@"Divide by 0 error");
 		return 0.0;
