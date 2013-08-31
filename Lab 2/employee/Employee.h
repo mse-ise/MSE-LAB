@@ -15,6 +15,6 @@
 //get methods
 -(NSString *)name;
 -(NSString *)dept;
--(float)empId;
+-(int)empId;
 
 @end
