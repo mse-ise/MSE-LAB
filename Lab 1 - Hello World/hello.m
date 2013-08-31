@@ -3,7 +3,7 @@
 
 -addStringValue:(const char*)astring
 {
-strcat(buffer,astring);
+strcat(buffer,astring); //astring is the accepted string
 return 0;
 }
 
